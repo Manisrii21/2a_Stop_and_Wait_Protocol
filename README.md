@@ -36,6 +36,7 @@ while True:
  print(s.recv(1024).decode())
  s.send("Acknowledgement Recived".encode())
 ```
+
 ## OUTPUT
 ## client:
 ![image](https://github.com/Manisrii21/2a_Stop_and_Wait_Protocol/assets/147140163/80af60f4-57e7-4ab2-ac01-27f12fe8cf44)
